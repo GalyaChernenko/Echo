@@ -17,7 +17,7 @@ class EchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Hh"))
+                .body("data", equalTo("Hi"))
         ;
 
     }
